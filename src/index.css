@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-linear-to-r from-[#FF6321] to-[#FF0000] bg-clip-text text-transparent;
+  }
+  
+  .border-gradient {
+    border-image: linear-gradient(to right, #FF6321, #FF0000) 1;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@700;800&display=swap');
