@@ -51,14 +51,14 @@ const growthData = [
 
 const companies = [
   {
-    name: "HARP GLOBAL TECHNOLOGY LLC",
-    description: "Web3, yapay zeka ve bulut tabanlı çözümlere odaklanan küresel bir dijital inovasyon laboratuvarı.",
-    link: "https://harpglobal.tr"
+    name: "HARP GLOBAL TEKNOLOJİ & SAĞLIK TİCARET SANAYİ LTD. ŞTİ.",
+    description: "Web3, yapay zeka, vitamin, ticaret ve sağlık odaklı küresel bir dijital inovasyon laboratuvarı.",
+    link: "https://harp.tr"
   },
   {
     name: "Harplabs Ltd",
     description: "Londra merkezli, Web3 ve yapay zeka odaklı dijital inovasyon laboratuvarı.",
-    link: "https://harpglobal.tr"
+    link: "https://harp.tr"
   },
   {
     name: "VİTANİCA.TR",
@@ -73,7 +73,7 @@ const companies = [
   {
     name: "Finansmedya.net",
     description: "Finans, ekonomi ve yeni teknolojileri kapsayan bir dijital medya platformu.",
-    link: "https://finanssmedya.net"
+    link: "https://finansmedya.net"
   },
   {
     name: "HostLabs.org",
@@ -85,9 +85,9 @@ const companies = [
 const links = [
   { label: "enesyellice.tr", url: "https://enesyellice.tr" },
   { label: "birdoktorasoralim.tr", url: "https://birdoktorasoralim.tr" },
-  { label: "finanssmedya.net", url: "https://finanssmedya.net" },
+  { label: "finansmedya.net", url: "https://finansmedya.net" },
   { label: "vitanica.tr", url: "https://vitanica.tr" },
-  { label: "harpglobal.tr", url: "https://harpglobal.tr" }
+  { label: "harp.tr", url: "https://harp.tr" }
 ];
 
 export default function App() {
@@ -379,30 +379,30 @@ export default function App() {
             <div className="flex flex-col items-center md:items-start gap-2">
               <h4 className="text-sm font-bold uppercase tracking-widest text-gray-400">Yeni Proje</h4>
               <a 
-                href="mailto:project@harpglobal.tr" 
+                href="mailto:project@harp.tr" 
                 className="text-lg font-bold text-gray-900 hover:text-[#FF6321] transition-colors"
               >
-                project@harpglobal.tr
+                project@harp.tr
               </a>
             </div>
 
             <div className="flex flex-col items-center md:items-start gap-2">
               <h4 className="text-sm font-bold uppercase tracking-widest text-gray-400">Eğitim & Danışmanlık</h4>
               <a 
-                href="mailto:danismanlik@harpglobal.tr" 
+                href="mailto:danismanlik@harp.tr" 
                 className="text-lg font-bold text-gray-900 hover:text-[#FF6321] transition-colors"
               >
-                danışmanlık@harpglobal.tr
+                danışmanlık@harp.tr
               </a>
             </div>
 
             <div className="flex flex-col items-center md:items-start gap-2">
               <h4 className="text-sm font-bold uppercase tracking-widest text-gray-400">Marketing</h4>
               <a 
-                href="mailto:marketing@harpglobal.tr" 
+                href="mailto:marketing@harp.tr" 
                 className="text-lg font-bold text-gray-900 hover:text-[#FF6321] transition-colors"
               >
-                marketing@harpglobal.tr
+                marketing@harp.tr
               </a>
             </div>
           </div>
