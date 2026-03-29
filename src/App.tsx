@@ -87,7 +87,8 @@ const links = [
   { label: "birdoktorasoralim.tr", url: "https://birdoktorasoralim.tr" },
   { label: "finansmedya.net", url: "https://finansmedya.net" },
   { label: "vitanica.tr", url: "https://vitanica.tr" },
-  { label: "harp.tr", url: "https://harp.tr" }
+  { label: "harp.tr", url: "https://harp.tr" },
+  { label: "sitemap.xml", url: "/sitemap.xml" }
 ];
 
 export default function App() {
@@ -410,6 +411,7 @@ export default function App() {
           <div className="mt-20 pt-8 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
             <p>© 2026 Muhammed Enes Yellice. Tüm hakları saklıdır.</p>
             <div className="flex gap-8">
+              <a href="/sitemap.xml" className="hover:text-[#FF6321]">Sitemap</a>
               <a href="#" className="hover:text-[#FF6321]">LinkedIn</a>
               <a href="#" className="hover:text-[#FF6321]">Twitter</a>
               <a href="#" className="hover:text-[#FF6321]">GitHub</a>
